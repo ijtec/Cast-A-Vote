@@ -102,8 +102,23 @@ top: 85px;
 left: 0;
 right: 0;
 bottom: 0;
-background-color: hsla(150, 74%, 19%, 0.38);
+/* background-color: hsl(163, 75%, 37%); */
+background-color: hsla(153, 91%, 13%, 0.771);
 cursor: pointer; 
+}
+
+.overlayman{
+position: absolute; 
+width: 30%; 
+height: 100%; 
+top: 85px;
+left: 60%;
+right: 0;
+bottom: 0;
+background-color: hsla(62, 93%, 50%, 0.247); 
+cursor: pointer; 
+transform: skewX(20deg);
+
 }
 
 .hero{
@@ -129,16 +144,23 @@ color: #FAFAFA;
 }
 
 .hero-btn{
-color:white ;
-background: red ;
+color:white;
+background: red;
 text-decoration: none;
-font-weight: 700;
-letter-spacing: 2px;
-padding: 10px 20px;
-border-radius: 5px;
+padding: 10px 100px;
+border-radius: 10px;
 margin-left: 40%;
-margin-top: 20%;
-font-family:'daxlinepro-light';
+position: relative;
+top: 15%; 
+
+}
+
+.info2{
+   display: none;
+}
+
+.info3{
+   display: none;
 }
 
 .hero .hero-btn:hover{
