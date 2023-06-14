@@ -3,16 +3,34 @@ font-family:'daxlinepro-light' ;
 src: url(Font/daxlinepro-light.ttf);
 }
 
+@font-face{
+font-family:'DaxlinePro-Bold.ttf';   
+src: url(Font/DaxlinePro-Bold.ttf);
+}
+
+@font-face{
+font-family:'DaxlinePro-Medium.ttf';   
+src: url(Font/DaxlinePro-Medium.ttf);
+}
+
+@font-face{
+font-family:'DaxlinePro-Regular.ttf';   
+src: url(Font/DaxlinePro-Regular.ttf);
+}
+
+@font-face{
+font-family:'daxlinepro-extrabold.ttf';
+src: url(Font/daxlinepro-extrabold.ttf);
+}
+
 *{
 margin: 0px;
 padding: 0;
 box-sizing: border-box; 
-font-family: 'daxlinepro-light';
 } 
 
 body{
 overflow-x: hidden;
-font-family: 'daxlinepro-light';
 }
 
 section{
@@ -39,7 +57,7 @@ font-weight: 500;
 letter-spacing: 1px;
 /* padding: 2px 15px; */
 font-size:18px;
-font-family: 'daxlinepro-light';
+font-family:'DaxlinePro-Regular.ttf';  
 /* margin-right: -3%; */
 }
 
@@ -67,22 +85,22 @@ height: 40px;
 width: 30%;
 left: 0px;
 top: 0px;
-color:#ffffff;
+color: #374B43;
 background-color: #DEEA87;
 font-style: normal;
-font-size: 16px;
+font-size: 18px;
 font-weight: 700;
 padding: 10px 20px;
 border-radius: 10px;
 border: none;
 line-height:22px ;
-font-family:'daxlinepro-light';
+font-family:'DaxlinePro-Regular.ttf';  
 /* margin-left: 30%; */
 margin-left: 2%;
 }
 
 .navbutton:hover{
-color:#ffffff;
+color: #ffffff;
 background-color: #054828;
 } 
 
@@ -131,20 +149,28 @@ background-repeat: no-repeat;
 
 } 
 
-.hero .info h2{
+.info h2{
 width: 90%;
-font-size: 51px;
-font-weight: bold;
-font-family:'daxlinepro-light';
-font-style: normal;
+font-size: 49px;
+font-family:'DaxlinePro-Bold.ttf';
 margin-top: 18%;
 margin-left: 5%;
-letter-spacing: 0px;
 color: #FAFAFA;
+text-align: center;
+}
+
+.info span{
+font-family:'daxlinepro-extrabold.ttf';
+font-size: 50px;
+}
+
+.sliderr{
+margin-left: 85%;
+margin-top: 15%;
 }
 
 .hero-btn{
-color:white;
+color: #374B43;
 background: #DEEA87;
 text-decoration: none;
 padding: 10px 100px;
@@ -152,7 +178,8 @@ border-radius: 10px;
 margin-left: 40%;
 position: relative;
 top: 15%; 
-
+font-size: 20px;
+font-family:'DaxlinePro-Regular.ttf';  
 }
 
 .info2{
@@ -163,8 +190,11 @@ top: 15%;
    display: none;
 }
 
+
+
 .hero .hero-btn:hover{
 background: #054828;
+color: #ffffff;
 }
 
 .votercontainer h3{
@@ -183,12 +213,12 @@ padding: 5%;
 }
 
 .votercontainertextdiv h4{
-font-family:'daxlinepro-light';
+font-family:'DaxlinePro-Bold.ttf';
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
 line-height: 150.8%;
-color: #383838;
+color: #374B43;
 
 }
 
@@ -215,7 +245,7 @@ width: 60%;
 
 .votercontainertextdiv{
 width: 70%;
-font-family:'daxlinepro-light';
+font-family:'DaxlinePro-Regular.ttf';  
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -241,7 +271,7 @@ padding: 5px;
 width: 200px;
 height: 200px;
 position: absolute;
-right: 200px;
+right: 300px;
 margin-top: 160px;
 border-radius: 70px;
 background-color: #DEEA87;
@@ -252,6 +282,7 @@ transform: matrix(-0.20, -0.99, 0.99, -0.20, 0, 0);
 .shapecontainer{
 display: flex;
 justify-content: space-evenly;
+margin-right: 9%;
 }
 
 
@@ -277,14 +308,17 @@ box-shadow: 0px 3px 6px #00000029;
 }
 
 .demotext{
-   text-align: center;
-   margin-top: 50px;
+text-align: center;
+margin-top: 50px;
+font-size: 18px;
+font-family:'DaxlinePro-Bold.ttf';
+color: #374B43;
 }
 
 iframe{
    position: relative;
-   bottom: 29.5px;
-   right: 4px;
+   bottom: 22px;
+   right: 5px;
    border-radius: 36px;
    
 } 
@@ -294,34 +328,25 @@ iframe{
 
 .linetwo{
 height:2px;
-width:28%;
+width:38%;
 background-color:#51DD11;
-margin-top: 7%;
-margin-left: -26%;
+margin-top: 9%;
+margin-left: -43%;
 } 
-
-/* .linecontainer{
-font-family:'daxlinepro-light';
-color: #383838;
-font-size: 20px;
-font-weight: 700;
-line-height: 30.16px;
-} */
 
 .linecontainer{
 display: flex;
-/* justify-content: center;
-align-items: center;
-flex-direction: column; */
+font-family:'DaxlinePro-Medium.ttf';
 margin-top: 8%;
 margin-left: 8%;
 color: #374B43;
-
+font-size: 25px;
 } 
 
 #castavote{
-font-weight: bolder;
-font-size: 24px;
+color: #374B43;
+font-family:'DaxlinePro-Bold.ttf';
+font-size: 35px;
    
 }
 
@@ -338,13 +363,15 @@ background-repeat: no-repeat;
    display: flex;
    justify-content: space-around;
    margin-left: 8%;
-   margin-top: 6%;
+   margin-top: 4%;
 }
 
 .firstrow h4,.secondrow h4{
    color: #18A67E;
    font-size: 22px;
-   font-weight:bold ;
+   position: relative;
+   bottom: 10px;
+   font-family:'DaxlinePro-Bold.ttf';  
 }
 
 .secondrow{
@@ -356,22 +383,12 @@ background-repeat: no-repeat;
 
 .firstrowtxt{
 width: 70%;
-font-family:'daxlinepro-light';
+font-family:'DaxlinePro-Regular.ttf';  
 font-style: normal;
-/* font-weight: 400; */
 font-size: 16px;
 line-height: 150.8%;
-color: #535252;   
+color: #808181;   
 }
-
-/* .firstrowtxt h4{
-font-family:'daxlinepro-light';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 150.8%;
-color: #383838;
-} */
 
 .chuksalexcontainer{
 display: flex;
@@ -400,24 +417,20 @@ padding: 0% 4%;
 
 #chukimg{
    width: 39rem;
-
 }
 
 .chukstxt{
-font-family:'daxlinepro-light';
-font-size: 36px;
+font-family:'DaxlinePro-Bold.ttf';
+font-size: 35px;
 text-align: left;
 width:50vw;
-color: #ffffff;
+color: #FFFFFF;
 margin-top:-3% ;
 }
 
 .chukstext{
-font-family:'daxlinepro-light';
-font-style: normal;
-font-weight: 400;
+font-family:'DaxlinePro-Regular.ttf'; 
 font-size: 20px;
-line-height: 28px;
 margin-top: 5%;
 color: #FFFFFF;
 }
@@ -433,6 +446,7 @@ width:200px;
 height: 40px;
 margin-top: 10%;
 border: none;
+font-family:'DaxlinePro-Regular.ttf'; 
 }
 
 .chuksbtn:hover{
@@ -480,12 +494,13 @@ height: 40px;
 text-align: center;
 border-radius: 10px;
 margin-bottom: 10%;
+font-family:'DaxlinePro-Regular.ttf'; 
 }
 
 .lineenterprise2{
 height: 5px;
 width: 80%;
-margin-top: -5%;
+margin-top: -10%;
 margin-left: -15%;
 background-color:#ffffff;
 border-radius: 2px;
@@ -507,7 +522,7 @@ height: 40px;
 border: 1px solid #18A67E;
 margin-top: 15%;
 margin-left: 30%;
-
+font-family:'DaxlinePro-Regular.ttf'; 
 }
 
    /* .startbtn:hover{
@@ -522,7 +537,6 @@ margin-left: 30%;
 background-color: #ffffff;
 color:#374B43 ;
 text-decoration: none;
-font-weight: 700;
 border-radius: 5px;
 width: 160px;
 height: 40px;
@@ -530,12 +544,13 @@ border: 1px solid;
 margin-top: 33%;
 margin-left: 30%;
 border-color: #18A67E;
+font-family:'DaxlinePro-Regular.ttf'; 
 }
 
 
 .sass{
 width: 30%;
-height: 65vh;
+height: 70vh;
 border-radius: 10px;
 padding: 5px;
 box-shadow: 0px 16px 40px rgba(117, 142, 254, 0.25);
@@ -544,10 +559,10 @@ margin-top: 2%;
 }
 
 #sassh4{
-font-size: 20px;
+font-size: 30px;
 margin-left: 15%;
 margin-top: 20%;
-font-weight: 900;
+font-family:'DaxlinePro-Regular.ttf';
 color: #054828;
 }
 
@@ -560,6 +575,8 @@ color: #ffffff;
 margin-left:15% ;
 margin-top: 5% ;
 color:#808181;
+font-family:'DaxlinePro-Regular.ttf';
+font-size: 16px;
 }
 
 .sasstext:hover,#b2btxt:hover{
@@ -576,14 +593,16 @@ background-color: #18A67E;
 }
 
 #b2btxt{
-margin-top: 5%;
 margin-left:15% ;
-color: #808181;
+margin-top: 5% ;
+color:#808181;
+font-family:'DaxlinePro-Regular.ttf';
+font-size: 16px;
 }
 
 .B2b{
 width: 30%;
-height: 65vh;
+height: 70vh;
 border-radius: 10px;
 padding: 5px;
 box-shadow: 0px 16px 40px rgba(117, 142, 254, 0.25);
@@ -592,10 +611,10 @@ margin-top: 2%;
 } 
 
 #B2bh4{
-font-size: 20px;
+font-size: 30px;
 margin-left: 15%;
 margin-top: 20%;
-font-weight: 900;
+font-family:'DaxlinePro-Regular.ttf';
 color: #054828;
 }
 
@@ -619,12 +638,14 @@ top: 350px;
 .clientsdiv h1{
 font-size: 40px;
 text-align: left;
-letter-spacing: 0px;
 color: #ffffff;
+font-family:'DaxlinePro-Bold.ttf';
 }
 
 .clientsdiv span{
 color: #DEEA87;
+font-size: 42px;
+font-family:'DaxlinePro-Bold.ttf';
 }
 
 .clientsdiv h3{
@@ -632,21 +653,27 @@ color: #ffffff;
 position: relative;
 left: 50%;
 bottom: 20%;
+font-family:'DaxlinePro-Regular.ttf';
+font-size: 25px;
 }
 
 .clientsdiv p{
 color: #ffffff;
 position: relative;
 left: 50%;
-bottom: 20%;
+bottom: 22%;
 width: 400px;
+font-size: 17px;
+font-family:'DaxlinePro-Regular.ttf';
 }
 
 .clientsdiv h5{
 color:#DEEA87 ;
 position: relative;
-left: 85%;
-bottom: 26%;
+left: 98%;
+bottom: 27%;
+font-size: 12px;
+font-family:'DaxlinePro-Regular.ttf';
 }
 
 .ellipse{
@@ -657,6 +684,8 @@ margin-left: 23%;
 position: relative;
 left: 50%;
 bottom: 18%;
+height: 8%;
+border: none;
    
 }
 
@@ -664,6 +693,8 @@ bottom: 18%;
 position: relative;
 left: 50%;
 bottom: 18%;
+height: 8%;
+border: none;
 }
 
 .clienttwo{
@@ -683,9 +714,9 @@ color: #DEEA87;
 
 .linetwoblog{
 height:2px;
-width:28%;
+width:30%;
 background-color: #DEEA87;
-margin-bottom: 25%; 
+margin-bottom: 30%; 
 margin-left: 35%;
 } 
 
@@ -694,13 +725,21 @@ text-align: center;
 margin-top: 5%;
 }
 
-.blogtext h4,h5{
+.blogtext h2{
 color: #374B43;
+font-family:'DaxlinePro-Bold.ttf';
+font-size: 28px;
+}
+
+.blogtext h5{
+color: #374B43;
+font-family:'DaxlinePro-Regular.ttf';
 }
 
 .blogtext span{
 color: #374B43;
-font-size: 17px;
+font-family:'DaxlinePro-Bold.ttf';
+font-size: 20px;
 }
 
 .mandiv{
@@ -711,23 +750,40 @@ margin-left: 5%;
 .commentman{
 text-decoration: none;
 color: #808181;
-
+position: relative;
+font-family:'DaxlinePro-Regular.ttf';
+font-size: 14px;
 }
 
 #manimg{
 width: 30%;
+margin-top: 1%;
+}
+
+.commenttext{
+   margin-top: 5px;
+}
+
+.containerdiv{
+   margin-top: 30%;
 }
 
 .mandiv p{
 color: #808181;
+font-size: 18px;
+font-family:'DaxlinePro-Regular.ttf';
 }
 
 .mandiv h3{
 color: #18A67E;
+font-size: 20px;
+font-family:'DaxlinePro-Bold.ttf';
 }
 
 .mandiv h4,.mandiv h5{
 color: #808181;
+font-family:'DaxlinePro-Regular.ttf';
+font-size: 12px;
 }
 
 #msgdiv{
@@ -746,22 +802,32 @@ margin-left: 38%;
 .commentguy{
 text-decoration: none;
 color: #808181;
+position: relative;
+font-family:'DaxlinePro-Regular.ttf';
+font-size: 14px;
 }
 
 #guyimg{
-width: 47%;
+width: 48%;
 }
 
 .guydiv p{
 color: #808181;
+font-size: 18px;
+font-family:'DaxlinePro-Regular.ttf';
 }
+
 
 .guydiv h3{
 color: #18A67E;
+font-size: 20px;
+font-family:'DaxlinePro-Bold.ttf';
 }
 
 .guydiv h4,.guydiv h5{
 color: #808181;
+font-family:'DaxlinePro-Regular.ttf';
+font-size: 12px;
 }
 
 #msgdivguy{
@@ -773,13 +839,16 @@ display: flex;
 }
 
 .ladydiv{
-margin-top: -320px;
+margin-top: -330px;
 margin-left: 70%;
 }
 
 .commentlady{
 text-decoration: none;
 color: #808181;
+position: relative;
+font-family:'DaxlinePro-Regular.ttf';
+font-size: 14px;
 }
 
 #ladyimg{
@@ -788,14 +857,20 @@ width: 95%;
 
 .ladydiv p{
 color: #808181;
+font-size: 18px;
+font-family:'DaxlinePro-Regular.ttf';
 }
 
 .ladydiv h3{
 color: #18A67E;
+font-size: 20px;
+font-family:'DaxlinePro-Bold.ttf';
 }
 
 .ladydiv h4,.ladydiv h5{
 color: #808181;
+font-family:'DaxlinePro-Regular.ttf';
+font-size: 12px;
 }
 
 #msgdivlady{
@@ -807,27 +882,28 @@ display: flex;
 }
 
 .Partner{
-   margin-top: 20%;
+margin-top: 12%;
 }
 
 .linecontainerpartner{
 margin-left: 45%; 
 color: #374B43;
-
+font-family:'DaxlinePro-Bold.ttf';
+font-size: 20px;
 }
 
 .linetwopartner{
 height:2px;
-width:28%;
+width:44%;
 background-color: #DEEA87;
 margin-top: 2%; 
-margin-left: -5%;
+margin-left: -7%;
 } 
 
 .partnerlogo{
-   display: flex;
-   justify-content: space-around;
-   margin-top: 30px;
+display: flex;
+justify-content: space-around;
+margin-top: 30px;
 }
 
 
@@ -860,16 +936,25 @@ height: 85px;
 }
 
 .infodiv h2{
-color: #054828
+color: #054828;
+font-size: 22px;
+font-family:'DaxlinePro-Bold.ttf';
 }
 
 .infodiv h4{
 color: #374B43;
-letter-spacing: 1px;
+font-size: 14px;
+font-family:'DaxlinePro-Regular.ttf';
 }
 
 .footerinfoicon{
 display: flex;
+}
+
+.footerinfoicon h5{
+color: #054828;
+font-family:'DaxlinePro-Regular.ttf';
+font-size: 12px;
 }
 
 #footerinfoicon img{
@@ -887,15 +972,23 @@ margin-top: 10px;
 #footerinfoicon h2{
 color: #054828;
 margin-top: 5px;
+font-size: 22px;
 margin-left: 20px;
+font-family:'DaxlinePro-Bold.ttf';
 }
 
 .office h2{
 color: #054828;
+margin-top: 5px;
+font-size: 22px;
+margin-left: 1px;
+font-family:'DaxlinePro-Bold.ttf';
 }
 
 .office p{
-   color: #374B43;
+color: #374B43;
+font-size: 14px;
+font-family:'DaxlinePro-Regular.ttf';
 }
 
 .logoandtext p{
@@ -906,6 +999,9 @@ height: 84px;
 .logoimg p{
 margin-left:15%;
 color: #374B43;
+font-size: 12px;
+font-family:'DaxlinePro-Regular.ttf';
+
 } 
 
 .facebookdiv,.twitterdiv,.instagramdiv,.pintrestdiv{
@@ -924,10 +1020,8 @@ margin-left: 50px;
 } 
 
 .copyrightdiv{
-font-family:'daxlinepro-light';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
+font-family:'DaxlinePro-Regular.ttf';
+font-size: 12px;
 color: #374B43;
 display: flex;
 align-items: center;
