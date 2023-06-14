@@ -34,6 +34,21 @@ position: relative;
 right: 10px;
 }
 
+#voteimg{
+  margin-right:10px ;
+}
+
+#pollimg{
+  margin-right: 14px;
+}
+
+#reportimg{
+  margin-right: 12px;
+}
+
+
+
+
 .topnav {
 background-image: url(./Image/MicrosoftTeams-image.png);
 width: 100%;
